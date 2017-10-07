@@ -1,0 +1,49 @@
+{ "type": "FeatureCollection",
+      "features": [{
+                  "type": "Feature",
+                  "geometry": {
+                    "type": "Point",
+                    "coordinates": [16.241158, 39.355119]
+                    },
+                  "properties": {
+                    "zoom": "12",
+                    "id": "1",
+                    "caption": "Parco Giogelli, vicino Scuola Materna.",
+                    "url_z": "https://farm5.staticflickr.com/4500/37270516970_9a883bf81d_z.jpg",
+                    "url_t": "https://farm5.staticflickr.com/4500/37270516970_9a883bf81d_t.jpg",
+                    "datetaken": "2017-10-06 03:17:20"
+                    }
+                }
+,{
+                  "type": "Feature",
+                  "geometry": {
+                    "type": "Point",
+                    "coordinates": [16.237697, 39.351436]
+                    },
+                  "properties": {
+                    "zoom": "12",
+                    "id": "2",
+                    "caption": "Parco fluviale Torrente Emoli",
+                    "url_z": "https://farm5.staticflickr.com/4464/37448580366_9992d2bacd_z.jpg",
+                    "url_t": "https://farm5.staticflickr.com/4464/37448580366_9992d2bacd_t.jpg",
+                    "datetaken": "2017-10-04 09:31:06"
+                    }
+                }
+,{
+                  "type": "Feature",
+                  "geometry": {
+                    "type": "Point",
+                    "coordinates": [16.242744, 39.357413]
+                    },
+                  "properties": {
+                    "zoom": "12",
+                    "id": "3",
+                    "caption": "Piazza Nicholas Green",
+                    "url_z": "https://farm5.staticflickr.com/4476/37448554286_e88a583d83_z.jpg",
+                    "url_t": "https://farm5.staticflickr.com/4476/37448554286_e88a583d83_t.jpg",
+                    "datetaken": "2017-10-04 09:29:49"
+                    }
+                }
+
+      ]
+    }

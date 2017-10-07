@@ -1,0 +1,206 @@
+/******************************************************************************
+ *
+ * Purpose: style for map.phtml
+ * Author:  Salvatore Larosa
+ *
+ ******************************************************************************/
+
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+body {
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-size: 11px;
+}
+#mapA, #mapB {
+	width: 49.9%;
+	height: 100%;
+}
+#mapA {
+	float: left;
+}
+#mapB {
+	float: right;
+}
+
+#cursor {
+	position: absolute;
+	z-index: 100;
+}
+
+.ui-layout-north, .ui-layout-south, .ui-layout-resizer {
+	background-color: #fff;
+	border: medium none;
+	color: #333;
+}
+.ui-layout-south {
+	/*background-color: #000;*/
+	padding: 0;
+}
+.ui-layout-center {
+	overflow: hidden;
+	padding: 0;
+}
+.ui-layout-west {
+	overflow: hidden;
+	padding: 0;
+}
+.ui-layout-pane {
+	overflow: hidden;
+	border: 0px;
+}
+
+.heading {
+	position: absolute;
+	color: #8dc63f;
+	font-size: 30px;
+	padding: 10px;
+	/*font-weight: bold;*/
+	text-align: left;
+	margin-top: -10px;
+}
+
+.header {
+	/*position: absolute;
+	 top: 8px;*/
+}
+.header div {
+	display: inline;
+	padding-left: 10px;
+}
+
+.logo-img {
+	/*vertical-align: middle;*/
+	/*position: absolute;*/
+	margin-top: -5px;
+}
+img {
+	border: medium none;
+}
+
+.footer img, .footer div {
+	padding: 1px;
+}
+
+#info-box {
+	background-color: #666;
+	color: #fff;
+	font-size: 12px;
+	font-weight: bold;
+	height: 33px;
+	position: absolute;
+	/*text-align: center;*/
+	vertical-align: bottom;
+	width: 100%;
+}
+#title-box {
+	margin-top: 8px;
+	padding: 1px 1px 1px 8px;
+	position: absolute;
+}
+
+#accordion {
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+	font-size: 11px;
+	position: absolute;
+	top: 35px;
+}
+
+.fa-compass {
+	line-height: inherit;
+}
+
+#selector {
+	/*position: absolute;*/
+	float: right;
+}
+
+#mapselect {
+	background-color: #ebebeb;
+	padding-left: 5px;
+	width: auto;
+}
+
+/** CSS firsr version **/
+/*body {
+ overflow: hidden;
+ position: relative;
+ height: 100%;
+ width: 100%;
+ margin: 0;
+ }*/
+
+/* set the two maps side by side */
+/*#mapA {
+ width: 49.5%;
+ height: 100%;
+ }
+
+ #mapB {
+ width: 50%;
+ height: 100%;
+ left: 50%;
+ top: 0;
+ position: absolute;
+ }*/
+
+/* the cursor */
+/*#cursor {
+ position: absolute;
+ z-index: 100;
+ }*/
+
+/* map title bar along the top */
+/*.title {
+ position: absolute;
+ z-index: 2;
+ opacity: 0.75;
+ top: 0px;
+ text-align: center;
+ font-weight: bold;
+ background-color: white;
+ border-bottom-right-radius: 10em;
+ border-bottom-left-radius: 10em;
+ }*/
+
+/* position the individual title bars */
+/*#mapATitle {
+ width: 49.5%;
+ }
+
+ #mapBTitle {
+ width: 50%;
+ left: 50%;
+ }
+
+ #sep {
+ position: absolute;
+ z-index: 2;
+ top: 0px;
+ background-color: white;
+ left: 50%;
+ height: 100%;
+ }*/
+/*#header {
+ width: 100%;
+ height: 60px;
+ background:blue;
+ position:absolute;
+ left:0;
+ top:0;
+ }
+ #content {
+ background:pink;
+ width:400px;
+ margin:0 auto -30px;
+ min-height:100%;
+ height:auto !important;
+ height:100%;
+ }
+ #footer {
+ width:100%;
+ height: 30px;
+ background:blue;
+ }**/
