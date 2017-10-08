@@ -202,9 +202,10 @@ function isMobile() {
 			<?php
 			if (!isMobile())
 				echo Ui::sidebar();
- ?>
+			?>
 			<div id="map" class="sidebar-map"></div>
 			<script src="lib/leaflet/leaflet.js"></script>
+			<script src="js/leaflet-hash.js"></script>
 			<!-- <script src='js/leaflet.zoomhome.js'></script> -->
 			<!-- <script src="https://cdn.jsdelivr.net/npm/leaflet-easybutton@2/src/easy-button.js"></script> -->
 			<script src="js/leaflet-ajax.js"></script>
@@ -213,7 +214,7 @@ function isMobile() {
 
 			<!-- <script src="https://unpkg.com/leaflet@1.0.0-rc.2/dist/leaflet.js"></script> -->
 			<script src='https://xguaita.github.io/mtig-js/libs/leaflet-providers.js'></script>
-			
+
 			<script src="js/leaflet-sidebar.js"></script>
 			<script src="lib/cluster/leaflet.markercluster.js"></script>
 			<script src="lib/Leaflet.Photo.js"></script>

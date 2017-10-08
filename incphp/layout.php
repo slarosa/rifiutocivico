@@ -12,18 +12,18 @@ class Ui {
 	 * North element
 	 */
 	public static function headerElement() {
-		if (!isMobile()){
+		if (!isMobile()) {
 			$html = "<div class=\"header\">
 				<div class=\"heading\">
 					<img class=\"centered\" width=\"50px\" src=\"images/logo.jpg\" /><span>&nbsp;#</span><span style=\"font-style: italic; font-weight:bold; color: #000000;\">rifiuto</span><span style=\"font-style: italic; font-weight:lighter; color: #000;\">civico</span><span style=\"font-style: italic; font-weight:lighter; color: #000;\">, contro una città indifferenziata.</span>
 				</div>";
-		}else{
+		} else {
 			$html = "<div class=\"header\">
 				<div class=\"heading_mobile\">
 					<img class=\"centered\" width=\"50px\" src=\"images/logo.jpg\" /><span>&nbsp;#</span><span style=\"font-style: italic; font-weight:bold; color: #000000;\">rifiuto</span><span style=\"font-style: italic; font-weight:lighter; color: #000;\">civico</span> 
 				</div>";
 		}
-		
+
 		return $html;
 	}
 
@@ -57,24 +57,8 @@ class Ui {
 	 * Footer element
 	 */
 	public static function footerElement() {
-		// $html = "<div class=\"footer\">
-					// <div style=\"float:right;\">
-						// &nbsp;&nbsp; <img src=\"images/regione-campania.png\" alt=\"Regione Campania\"  />
-					// </div>
-					// <div style=\"float:right;\">
-						// &nbsp;&nbsp; <img src=\"images/unione-europea.png\" alt=\"Unione Europea\" />
-					// </div>
-					// <div style=\"float:right;\">
-						// &nbsp;&nbsp; <img src=\"images/repubblica-italiana.png\" alt=\"Repubblica Italiana\" />
-					// </div>
-					// <div style=\"float:right;\">
-						// &nbsp;&nbsp; <img src=\"images/fesr.png\" alt=\"FESR\" />
-					// </div>
-					// <div style=\"float:right; line-height: 30px; color: #8dc63f; font-weight: bold;\">
-						// &copy; 2015 Comunit&agrave; Montana Vallo di Diano
-					// </div>
-				// </div>";
-		// return $html;
+		$html = '';
+		return $html;
 	}
 
 	/**
@@ -97,17 +81,18 @@ class Ui {
 					<li>
 						<a href="#telegram" role="tab"><i class="fa fa-telegram"></i></a>
 					</li>
+					<li>
+						<a href="#github" role="tab"><i class="fa fa-github"></i></a>
+					</li>
 					
 					<li class="disabled">
 						<a href="mailto:rifiutocivico@gmail.com?subject=#rifiutocivico" role="tab"><i class="fa fa-envelope"></i></a>
 					</li>
 					
-					<!--<li>
-						<a href="#github" role="tab"><i class="fa fa-github"></i></a>
-					</li>
+					
 				</ul>
 
-				<ul role="tablist">
+				<!--<ul role="tablist">
 					<li>
 						<a href="#settings" role="tab"><i class="fa fa-gear"></i></a>
 					</li>
@@ -171,13 +156,11 @@ class Ui {
 				</div>
 				
 				<div class="sidebar-pane" id="github">
-					<h1 class="sidebar-header">Risorse<span class="sidebar-close"><i class="fa fa-caret-right"></i></span></h1>
-					<p class="lorem">
-						L\'applicazione si alimenta dalle foto condivise da qualsiasi utente all\'interno
-						del social Flickr. Per condividere foto su Flickr è necessario avere un account.
-						Dopo essersi registrati a flickr (oppure entrati, se già registrati), 
-						per condividere foto e mostrarle sulla mappa bisogna caricare le immagini su flickr ed aggiungere
-						almeno un tag che riporta il seguente testo: #rifiutocivico. Le foto devono essere goetaggate.
+					<h1 class="sidebar-header">Repository GitHub<span class="sidebar-close"><i class="fa fa-caret-right"></i></span></h1>
+					<p>
+						Il progetto è disponibile sulla piattaforma Github e chiunque può contribuire a migliorare il sistema.
+						<br><br>
+						Progetto su Github: <a href="https://github.com/slarosa/rifiutocivico_repo" target="_blank">https://github.com/slarosa/rifiutocivico_repo</a>
 					</p>
 				
 				</div>
